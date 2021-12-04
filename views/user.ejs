@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="user-style.css">
+  </head>
+  <body>
+    <div class="heading">
+      <h1><%= name %></h1>
+    </div>
+
+    <div class="row">
+      <div class="col-6 profile">
+        <img src= <%=imgSrc%> alt="">
+      </div>
+      <div class ="col-6 data">
+        <table>
+          <tr>
+            <td>City :</td>
+            <td><%=city%></td>
+          </tr>
+          <tr>
+            <td>Country :</td>
+            <td><%=country%></td>
+          </tr>
+          <tr>
+            <td>Organisation :</td>
+            <td><%=org%></td>
+          </tr>
+          <tr>
+            <td>Rating:</td>
+            <td><%=rating%></td>
+          </tr>
+          <tr>
+            <td>Max Rating:</td>
+            <td><%=maxr%></td>
+          </tr>
+          <tr>
+            <td>Rank: </td>
+            <td><%=rank%></td>
+          </tr>
+          <tr>
+            <td>Max Rank:</td>
+            <td><%=maxRank%></td>
+          </tr>
+          <tr>
+            <td>Friend Of:</td>
+            <td><%=friendOf%></td>
+          </tr>
+        </table>
+    </div>
+  </div>
+    <div class="footer">
+    <p>© copyright Siddharth Singh</p>
+    </div>
+  </body>
+</html>

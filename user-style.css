@@ -1,0 +1,54 @@
+body{
+  background-color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  color:firebrick;
+  font-size: 4rem;
+  padding:4%;
+}
+.heading{
+  background-color: sandybrown;
+}
+img{
+  border-radius: 100%;
+}
+.profile{
+  padding-left: 5%;
+  padding-top: 5%;
+  text-align: center;
+
+}
+.data{
+  padding-left: 3%;
+  padding-top: 4%;
+}
+td{
+  padding:3%;
+}
+tr{
+  margin:3%;
+}
+table{
+  width:60%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: steelblue;
+}
+.row{
+  margin: 4% 0;
+}
+.footer{
+  text-align: center;
+  margin-top:3%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  width:100%;
+  color:#99A799;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: steelblue;
+}

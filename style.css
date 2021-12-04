@@ -1,0 +1,35 @@
+body{
+  padding:15%;
+  text-align: center;
+  background-color: #FDEFEF;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 3%;
+  color:firebrick;
+}
+input{
+  font-size: 1.2rem;
+  padding:10px;
+}
+button{
+  padding:10px;
+  font-size: 1.2rem;
+  margin-left: 1.5%;
+  background-color: steelblue;
+  color:#fff;
+}
+input:focus{
+  border:4px solid;
+  border-color: steelblue;
+}
+button:hover{
+  background-color: sandybrown;
+  color:#000;
+  transform: translateY(-3px);
+  box-shadow: 0 2px 2px yellow;
+  border-radius: 1%;
+
+}
